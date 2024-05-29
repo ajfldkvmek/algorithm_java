@@ -1,18 +1,9 @@
 package dfs;
-
+import node.Node;
 import java.util.*;
 
-class Node {
-    int data;
-    Node lt, rt;
-    public Node(int val){
-        data = val;
-        lt = rt = null;
-    }
 
-}
 public class Binarytree01 {
-
     Node root;
     public void dfs(Node root){
         if(root == null) return;
