@@ -1,4 +1,5 @@
 package bfs;
+
 public class Point{
     public int x, y;
     Point(int x, int y){
