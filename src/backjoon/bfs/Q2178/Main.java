@@ -25,7 +25,7 @@ public class Main {
 
         Queue<Point> Q = new LinkedList<>();
         Q.offer(new Point(x,y));
-        maze[x][y] = 1;
+        dis[1][1] = 1;
 
         while(!Q.isEmpty()){
             Point p = Q.poll();
@@ -71,7 +71,6 @@ public class Main {
 
         sc.close();
 
-        dis[1][1] = 1;
         M.bfs(1, 1);
 
         System.out.println(dis[n][m]);
