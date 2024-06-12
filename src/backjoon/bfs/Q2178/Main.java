@@ -21,6 +21,7 @@ public class Main {
     static int[] dy = {0, 1, 0, -1};
     static int[][] maze, dis;
 
+
     public void bfs(int x, int y){
 
         Queue<Point> Q = new LinkedList<>();
